@@ -83,4 +83,23 @@ Let's make a commit, and then push it to our repository.
 
 Let's give it a try.  
   
-   
+## Add Some Code  
+  
+Now that we have a readme, and a working repository, we can go ahead and add in some code that does some stuff.  
+  
+Let's start by adding a NodeJS "Hello World!" app. Not super exciting, but better than a kick in the butt.  
+  
+Create a file `app.js` and add an appropriate console.log  
+  
+```js
+// app.js
+console.log("Hello, World!");
+```
+
+Add the new file and its changes to your git commit history  
+  
+```
+git add app.js
+git commit -m 'Adds a NodeJS application.'
+git push gh main
+```
