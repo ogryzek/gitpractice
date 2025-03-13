@@ -103,3 +103,10 @@ git add app.js
 git commit -m 'Adds a NodeJS application.'
 git push gh main
 ```
+
+## Using Branches  
+  
+Now, we want to make our application a little more interesting. Maybe not too interesting, but a little more interesting than it currently is. What do we want to do?  
+  
+Let's create a new branch to do some new work! And then, we'll talk about what we're going to do...  
+  
