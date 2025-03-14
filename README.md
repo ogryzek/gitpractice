@@ -130,3 +130,19 @@ Going forward, we can do a lot of different things, really we can do whatever we
   
 Realistically, we want to work with our codebase, and use branches to our advantage. So, we should explore the tools available to do so. If we want to move between branches, we can use the `git checkout <branchname>` command. If we want to bring the changes from one branch into another branch, we can use `rebase` or `merge`. These have some interesting differences that are beyond the scope of this tutorial, but I'd like you to try creating some different branches as you work on your project, and use [rebase](https://git-scm.com/docs/git-rebase) and [merge](https://git-scm.com/docs/git-merge). Also, don't forget you can always [read the docs](https://git-scm.com/doc).  
   
+We have branched out to `webapp`, made new commits, came back to the main branch, made more commits. Then merged webapp with main, resolved the conflicts and finally we decided to delete the webapp branch.  
+  
+Here are some additional git commands to consider.  
+  
+```
+git add 
+git pull
+git fetch
+git push
+git branch -d <branchname>
+```
+  
+That's enough git for now. Go ahead and work on your code, while also using git and even github. Good luck and have fun!  
+  
+
+  
