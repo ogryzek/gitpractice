@@ -110,3 +110,9 @@ Now, we want to make our application a little more interesting. Maybe not too in
   
 Let's create a new branch to do some new work! And then, we'll talk about what we're going to do...  
   
+At this point, we have actually created a new branch `webapp`, added an app, made a commit or two, and pushed that branch up to github. We are now back on the main branch though, and making some additional changes to the README. I guess we can see what happens now.  
+  
+Going forward, we can do a lot of different things, really we can do whatever we want, because we are adults and our parents are not going to tell us what to do, right? So, let's go for pizza! HAHA just kidding...  
+  
+Realistically, we want to work with our codebase, and use branches to our advantage. So, we should explore the tools available to do so. If we want to move between branches, we can use the `git checkout <branchname>` command. If we want to bring the changes from one branch into another branch, we can use `rebase` or `merge`. These have some interesting differences that are beyond the scope of this tutorial, but I'd like you to try creating some different branches as you work on your project, and use [rebase](https://git-scm.com/docs/git-rebase) and [merge](https://git-scm.com/docs/git-merge). Also, don't forget you can always [read the docs](https://git-scm.com/doc).  
+  
