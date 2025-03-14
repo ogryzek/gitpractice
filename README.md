@@ -110,6 +110,20 @@ Now, we want to make our application a little more interesting. Maybe not too in
   
 Let's create a new branch to do some new work! And then, we'll talk about what we're going to do...  
   
+What we are going to do is create a webapp that serves localhost at port 3000 with a nice Hello World! inside of an H1.  
+
+```js
+// app.js
+const http = require('http');
+
+http.createServer((req, res) => {
+    res.setHeader("Content-Type", "text/html");
+    res.write("<h1>Hello World!</h1>");
+    res.end("Hey there!");
+}).listen(3000);
+
+```
+
 At this point, we have actually created a new branch `webapp`, added an app, made a commit or two, and pushed that branch up to github. We are now back on the main branch though, and making some additional changes to the README. I guess we can see what happens now.  
   
 Going forward, we can do a lot of different things, really we can do whatever we want, because we are adults and our parents are not going to tell us what to do, right? So, let's go for pizza! HAHA just kidding...  
